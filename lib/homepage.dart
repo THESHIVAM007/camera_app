@@ -118,8 +118,8 @@ onTap: (){
                         _selectedImage!,
                         fit: BoxFit.cover,
                       )
-                    : Image.asset(
-                        "assets/images/goku.png",
+                    : Image.network(
+                        "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=60,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/04/20/one-piece-zoro-in-wano-arc.jpeg",
                         fit: BoxFit.cover,
                       ),
               ),
